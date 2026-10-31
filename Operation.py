@@ -68,4 +68,4 @@ def factorial(x):
     return math.factorial(int(x))
 
 def square(x):
-    return x ^ 2
+    return x * x
