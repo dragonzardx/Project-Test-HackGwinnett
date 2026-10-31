@@ -20,6 +20,7 @@ MENU = """
 10. Natural Log         (ln x)
 11. Log Base 10         (log10 x)
 12. Factorial           (x!)
+13. Square              (x^2)
  0. Exit
 ================================
 """
@@ -62,5 +63,7 @@ def run_operation(choice, x, y=None):
         return operations.log_base_10(x)
     elif choice == 12:
         return operations.factorial(x)
+    elif choice == 13:
+        return operations.square(x)
     else:
         raise ValueError("Invalid menu choice.")
