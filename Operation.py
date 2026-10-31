@@ -66,3 +66,6 @@ def factorial(x):
     if x < 0 or int(x) != x:
         raise ValueError("Factorial requires a non-negative integer.")
     return math.factorial(int(x))
+
+def square(x):
+    return x ^ 2
